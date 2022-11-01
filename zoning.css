@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fond_page{
+border-top: 15px solid black;
+border-bottom: 20px solid black;
+border-left: 25px solid black;
+border-right: 25px solid black;
+}
+.page{
+    background-color: white;
+    width: 500px;
+    height: 620px;
+    }
+body{
+    width: 550px;
+}
+header{
+    position: absolute;
+    height: 10%;
+    width: 500px;
+    background-image: linear-gradient(white, orange);
+    text-align: center;
+    padding-top: 30px;
+    border: 2px solid black;
+}
+nav{
+    padding-top: 10px;
+    position: relative;
+    top: 120px;
+    height: 30px;
+    width: 500px;
+    margin-bottom: 25px;
+    background-image: linear-gradient(white, lightblue);
+    border: 2px solid black;
+
+}
+main{
+    display: flex;
+}
+section{
+    position: relative;
+    top: 120px;
+    background-color: lightgrey;
+    width: 360px;
+    height: 350px;
+    border: 2px solid black;
+}
+footer{
+    background-color: bisque;
+    border: 2px solid black;
+    position: relative;
+    top: 135px;
+    height: 60px;
+    width: 500px;
+    text-align: center;
+    
+}
+ul{
+    padding: 0;
+    width: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+   list-style-type: none;
+   align-content: center;
+}
+li{
+    border-right:  1px solid black;
+    padding-right: 12px;
+}
+li+li+li+li{
+    border: none;
+}
+.art_1{
+    width: 320px;
+    height: 120px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border: solid black 2px;
+}
+.art_2{
+    width: 240px;
+    height: 120px;
+    margin-left: 20px;
+    border:solid black 2px;
+    margin-top: 20px;
+}
+.art_2_as{
+    display: flex;
+    width: 70px;
+    height: 120px;
+    background: linear-gradient(90deg, #876ee2,#b464e6);
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.part_2{
+    display: flex;
+}
+.titre{
+    margin-left: 10px;
+}
+.section_as{
+    width: 120px;
+    height: 350px;
+    background: linear-gradient(90deg, #876ee2,#b464e6);
+    border: solid black 2px;
+    position: relative;
+    left: 15px;
+    top: 120px;
+    
+
+}
+article{
+    background-image: linear-gradient(rgb(67, 123, 246), rgb(66, 94, 255));
+}
